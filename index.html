@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn" class="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="register()">Registration</button>
+            </div>
+            <div class="social-icons">
+                <img src="images/fb-icon.png" alt="">
+                <img src="images/tw-icon.png" alt="">
+                <img src="images/gp-icon.png" alt="">
+            </div>
+            <form action="" id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Username or Email">
+                <input type="password" class="input-field" placeholder="Password">
+                <input type="checkbox" id="checkbox" name="checkbox" class="checkbox">
+                <label for="checkbox">Remember me</label>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+            <form action="" id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="Username or Email">
+                <input type="text" class="input-field" placeholder="Email address">
+                <input type="password" class="input-field" placeholder="Password">
+                <input type="checkbox" id="checkbox" name="checkbox" class="checkbox">
+                <label for="checkbox">I agree to the terms and conditions</label>
+                <button type="submit" class="submit-btn">Registration</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
